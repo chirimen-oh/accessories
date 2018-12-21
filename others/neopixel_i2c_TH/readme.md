@@ -4,5 +4,6 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 
 * Original firmware : https://github.com/usedbytes/neopixel_i2c
 * Issue fixed firmware: https://github.com/satakagi/neopixel_i2c
+* Original board design (picopixel) with surface mount parts: https://hackaday.io/project/8516-picopixel
 
 ![image](npi2c.png)
