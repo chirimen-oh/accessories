@@ -20,3 +20,7 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 * This PCB ( size: 37mm x 18mm )
 
 ![image](npi2c.png)
+
+## Driver for CHIRIMEN
+* See I2C-NOEPIXEL_I2C section of
+* http://chirimen.org/chirimen-raspi3/gc/top/examples/#advanced
