@@ -17,6 +17,7 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 * R 10K Ohm
 * C 0.1 uF
 * Pin headers
+* IC Socket DIP 8P
 * This PCB ( size: 37mm x 18mm )
 
 ![image](npi2c.png)
