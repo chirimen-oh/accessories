@@ -4,11 +4,14 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 
 ![board](./board.png)
 
-# Version
+## Size
+120x80mm
+
+## Version
 
 0.1
 
-# License
+## License
 
 CC by 4.0
 
