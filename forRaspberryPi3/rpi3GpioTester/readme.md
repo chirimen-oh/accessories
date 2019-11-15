@@ -1,4 +1,4 @@
-# CHIRIMEN for RPi3 Full Test Board
+# CHIRIMEN for RPi Full Test Board
 
 CHIRIMEN for Raspberry Pi*の、テストスイートを一気に通すための試験用基板です。
 
