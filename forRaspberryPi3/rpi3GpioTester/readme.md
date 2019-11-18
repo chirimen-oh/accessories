@@ -9,7 +9,7 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 
 ## Version
 
-0.1
+0.2 (KiCad version:5.1.4)
 
 ## License
 
