@@ -5,7 +5,7 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 ![board](./board.png)
 
 ## Size
-120x80mm
+120x80mm  2Layers
 
 ## Version
 
