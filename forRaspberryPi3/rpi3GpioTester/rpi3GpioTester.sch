@@ -2117,10 +2117,10 @@ SCL
 Text GLabel 2450 4050 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0109
 U 1 1 5DDAA191
 P 2450 4300
-F 0 "#PWR?" H 2450 4050 50  0001 C CNN
+F 0 "#PWR0109" H 2450 4050 50  0001 C CNN
 F 1 "GND" H 2450 4150 50  0000 C CNN
 F 2 "" H 2450 4300 50  0001 C CNN
 F 3 "" H 2450 4300 50  0001 C CNN
@@ -2128,10 +2128,10 @@ F 3 "" H 2450 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0110
 U 1 1 5DDAA197
 P 2450 4500
-F 0 "#PWR?" H 2450 4350 50  0001 C CNN
+F 0 "#PWR0110" H 2450 4350 50  0001 C CNN
 F 1 "+3.3V" H 2450 4640 50  0000 C CNN
 F 2 "" H 2450 4500 50  0001 C CNN
 F 3 "" H 2450 4500 50  0001 C CNN
@@ -2154,10 +2154,10 @@ SCL
 Text GLabel 2450 4800 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0111
 U 1 1 5DDAA1A5
 P 2450 5050
-F 0 "#PWR?" H 2450 4800 50  0001 C CNN
+F 0 "#PWR0111" H 2450 4800 50  0001 C CNN
 F 1 "GND" H 2450 4900 50  0000 C CNN
 F 2 "" H 2450 5050 50  0001 C CNN
 F 3 "" H 2450 5050 50  0001 C CNN
@@ -2165,10 +2165,10 @@ F 3 "" H 2450 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0112
 U 1 1 5DDAA1AB
 P 2450 5250
-F 0 "#PWR?" H 2450 5100 50  0001 C CNN
+F 0 "#PWR0112" H 2450 5100 50  0001 C CNN
 F 1 "+3.3V" H 2450 5390 50  0000 C CNN
 F 2 "" H 2450 5250 50  0001 C CNN
 F 3 "" H 2450 5250 50  0001 C CNN
@@ -2191,10 +2191,10 @@ SCL
 Text GLabel 1050 6650 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0113
 U 1 1 5DDAA1B9
 P 1000 6400
-F 0 "#PWR?" H 1000 6150 50  0001 C CNN
+F 0 "#PWR0113" H 1000 6150 50  0001 C CNN
 F 1 "GND" H 1000 6250 50  0000 C CNN
 F 2 "" H 1000 6400 50  0001 C CNN
 F 3 "" H 1000 6400 50  0001 C CNN
@@ -2202,10 +2202,10 @@ F 3 "" H 1000 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0114
 U 1 1 5DDAA1BF
 P 1050 6850
-F 0 "#PWR?" H 1050 6700 50  0001 C CNN
+F 0 "#PWR0114" H 1050 6700 50  0001 C CNN
 F 1 "+3.3V" H 1050 6990 50  0000 C CNN
 F 2 "" H 1050 6850 50  0001 C CNN
 F 3 "" H 1050 6850 50  0001 C CNN
@@ -2228,10 +2228,10 @@ SCL
 Text GLabel 1050 5900 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0115
 U 1 1 5DDAA1CD
 P 1000 5650
-F 0 "#PWR?" H 1000 5400 50  0001 C CNN
+F 0 "#PWR0115" H 1000 5400 50  0001 C CNN
 F 1 "GND" H 1000 5500 50  0000 C CNN
 F 2 "" H 1000 5650 50  0001 C CNN
 F 3 "" H 1000 5650 50  0001 C CNN
@@ -2239,10 +2239,10 @@ F 3 "" H 1000 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0116
 U 1 1 5DDAA1D3
 P 1050 6100
-F 0 "#PWR?" H 1050 5950 50  0001 C CNN
+F 0 "#PWR0116" H 1050 5950 50  0001 C CNN
 F 1 "+3.3V" H 1050 6240 50  0000 C CNN
 F 2 "" H 1050 6100 50  0001 C CNN
 F 3 "" H 1050 6100 50  0001 C CNN
@@ -2313,10 +2313,10 @@ SCL
 Text GLabel 2450 5600 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0117
 U 1 1 5DDAA1F9
 P 2450 5850
-F 0 "#PWR?" H 2450 5600 50  0001 C CNN
+F 0 "#PWR0117" H 2450 5600 50  0001 C CNN
 F 1 "GND" H 2450 5700 50  0000 C CNN
 F 2 "" H 2450 5850 50  0001 C CNN
 F 3 "" H 2450 5850 50  0001 C CNN
@@ -2324,10 +2324,10 @@ F 3 "" H 2450 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0118
 U 1 1 5DDAA1FF
 P 2450 6050
-F 0 "#PWR?" H 2450 5900 50  0001 C CNN
+F 0 "#PWR0118" H 2450 5900 50  0001 C CNN
 F 1 "+3.3V" H 2450 6190 50  0000 C CNN
 F 2 "" H 2450 6050 50  0001 C CNN
 F 3 "" H 2450 6050 50  0001 C CNN
@@ -2350,10 +2350,10 @@ SCL
 Text GLabel 2450 6350 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0119
 U 1 1 5DDAA20D
 P 2450 6600
-F 0 "#PWR?" H 2450 6350 50  0001 C CNN
+F 0 "#PWR0119" H 2450 6350 50  0001 C CNN
 F 1 "GND" H 2450 6450 50  0000 C CNN
 F 2 "" H 2450 6600 50  0001 C CNN
 F 3 "" H 2450 6600 50  0001 C CNN
@@ -2361,10 +2361,10 @@ F 3 "" H 2450 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0120
 U 1 1 5DDAA213
 P 2450 6800
-F 0 "#PWR?" H 2450 6650 50  0001 C CNN
+F 0 "#PWR0120" H 2450 6650 50  0001 C CNN
 F 1 "+3.3V" H 2450 6940 50  0000 C CNN
 F 2 "" H 2450 6800 50  0001 C CNN
 F 3 "" H 2450 6800 50  0001 C CNN
@@ -2387,10 +2387,10 @@ SCL
 Text GLabel 1050 5050 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0121
 U 1 1 5DDAA221
 P 1000 4800
-F 0 "#PWR?" H 1000 4550 50  0001 C CNN
+F 0 "#PWR0121" H 1000 4550 50  0001 C CNN
 F 1 "GND" H 1000 4650 50  0000 C CNN
 F 2 "" H 1000 4800 50  0001 C CNN
 F 3 "" H 1000 4800 50  0001 C CNN
@@ -2398,10 +2398,10 @@ F 3 "" H 1000 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0122
 U 1 1 5DDAA227
 P 1050 5250
-F 0 "#PWR?" H 1050 5100 50  0001 C CNN
+F 0 "#PWR0122" H 1050 5100 50  0001 C CNN
 F 1 "+3.3V" H 1050 5390 50  0000 C CNN
 F 2 "" H 1050 5250 50  0001 C CNN
 F 3 "" H 1050 5250 50  0001 C CNN
@@ -2424,10 +2424,10 @@ SCL
 Text GLabel 1050 4300 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0123
 U 1 1 5DDAA235
 P 1000 4050
-F 0 "#PWR?" H 1000 3800 50  0001 C CNN
+F 0 "#PWR0123" H 1000 3800 50  0001 C CNN
 F 1 "GND" H 1000 3900 50  0000 C CNN
 F 2 "" H 1000 4050 50  0001 C CNN
 F 3 "" H 1000 4050 50  0001 C CNN
@@ -2435,10 +2435,10 @@ F 3 "" H 1000 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0124
 U 1 1 5DDAA23B
 P 1050 4500
-F 0 "#PWR?" H 1050 4350 50  0001 C CNN
+F 0 "#PWR0124" H 1050 4350 50  0001 C CNN
 F 1 "+3.3V" H 1050 4640 50  0000 C CNN
 F 2 "" H 1050 4500 50  0001 C CNN
 F 3 "" H 1050 4500 50  0001 C CNN
@@ -2498,10 +2498,10 @@ SCL
 Text GLabel 5750 4350 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0125
 U 1 1 5DD88E0E
 P 5750 4700
-F 0 "#PWR?" H 5750 4450 50  0001 C CNN
+F 0 "#PWR0125" H 5750 4450 50  0001 C CNN
 F 1 "GND" H 5750 4550 50  0000 C CNN
 F 2 "" H 5750 4700 50  0001 C CNN
 F 3 "" H 5750 4700 50  0001 C CNN
@@ -2509,10 +2509,10 @@ F 3 "" H 5750 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0126
 U 1 1 5DD88E14
 P 5750 4500
-F 0 "#PWR?" H 5750 4350 50  0001 C CNN
+F 0 "#PWR0126" H 5750 4350 50  0001 C CNN
 F 1 "+3.3V" H 5750 4640 50  0000 C CNN
 F 2 "" H 5750 4500 50  0001 C CNN
 F 3 "" H 5750 4500 50  0001 C CNN
@@ -2547,10 +2547,10 @@ SCL
 Text GLabel 5750 5200 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0127
 U 1 1 5DD9ED50
 P 5750 5550
-F 0 "#PWR?" H 5750 5300 50  0001 C CNN
+F 0 "#PWR0127" H 5750 5300 50  0001 C CNN
 F 1 "GND" H 5750 5400 50  0000 C CNN
 F 2 "" H 5750 5550 50  0001 C CNN
 F 3 "" H 5750 5550 50  0001 C CNN
@@ -2558,10 +2558,10 @@ F 3 "" H 5750 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0128
 U 1 1 5DD9ED56
 P 5750 5350
-F 0 "#PWR?" H 5750 5200 50  0001 C CNN
+F 0 "#PWR0128" H 5750 5200 50  0001 C CNN
 F 1 "+3.3V" H 5750 5490 50  0000 C CNN
 F 2 "" H 5750 5350 50  0001 C CNN
 F 3 "" H 5750 5350 50  0001 C CNN
@@ -2596,10 +2596,10 @@ SCL
 Text GLabel 5750 6000 0    60   Input ~ 0
 SDA
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0129
 U 1 1 5DDB603C
 P 5750 6350
-F 0 "#PWR?" H 5750 6100 50  0001 C CNN
+F 0 "#PWR0129" H 5750 6100 50  0001 C CNN
 F 1 "GND" H 5750 6200 50  0000 C CNN
 F 2 "" H 5750 6350 50  0001 C CNN
 F 3 "" H 5750 6350 50  0001 C CNN
@@ -2607,10 +2607,10 @@ F 3 "" H 5750 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0130
 U 1 1 5DDB6042
 P 5750 6150
-F 0 "#PWR?" H 5750 6000 50  0001 C CNN
+F 0 "#PWR0130" H 5750 6000 50  0001 C CNN
 F 1 "+3.3V" H 5750 6290 50  0000 C CNN
 F 2 "" H 5750 6150 50  0001 C CNN
 F 3 "" H 5750 6150 50  0001 C CNN
@@ -2640,4 +2640,104 @@ Wire Wire Line
 	5750 6350 5900 6350
 Wire Wire Line
 	5900 6350 5900 6200
+$Comp
+L rpi3GpioTester-rescue:Conn_01x04_Female I2C_PU1
+U 1 1 5DD8E5EE
+P 7300 4300
+F 0 "I2C_PU1" H 7300 4500 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7300 4000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7300 4300 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 4200 0    60   Input ~ 0
+SCL
+Text GLabel 6950 4500 0    60   Input ~ 0
+SDA
+$Comp
+L rpi3GpioTester-rescue:+3.3V-power #PWR0131
+U 1 1 5DD8E5FC
+P 6750 4400
+F 0 "#PWR0131" H 6750 4250 50  0001 C CNN
+F 1 "+3.3V" H 6750 4540 50  0000 C CNN
+F 2 "" H 6750 4400 50  0001 C CNN
+F 3 "" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 4500 7100 4500
+Wire Wire Line
+	6950 4200 7100 4200
+Wire Wire Line
+	7100 4300 7100 4400
+Connection ~ 7100 4400
+Wire Wire Line
+	6750 4400 7100 4400
+$Comp
+L rpi3GpioTester-rescue:Conn_01x04_Female J_5V1
+U 1 1 5DE85532
+P 7300 5250
+F 0 "J_5V1" H 7300 5450 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7300 4950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7300 5250 50  0001 C CNN
+F 3 "" H 7300 5250 50  0001 C CNN
+	1    7300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L rpi3GpioTester-rescue:+5V-power #PWR0132
+U 1 1 5DEBA508
+P 7050 5150
+F 0 "#PWR0132" H 7050 5000 50  0001 C CNN
+F 1 "+5V" H 7050 5290 50  0000 C CNN
+F 2 "" H 7050 5150 50  0001 C CNN
+F 3 "" H 7050 5150 50  0001 C CNN
+	1    7050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5150 7100 5150
+Wire Wire Line
+	7100 5150 7100 5250
+Connection ~ 7100 5150
+Connection ~ 7100 5250
+Wire Wire Line
+	7100 5250 7100 5350
+Connection ~ 7100 5350
+Wire Wire Line
+	7100 5350 7100 5450
+$Comp
+L rpi3GpioTester-rescue:Conn_01x04_Female J_GND1
+U 1 1 5DF0A267
+P 7300 5850
+F 0 "J_GND1" H 7300 6050 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7300 5550 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7300 5850 50  0001 C CNN
+F 3 "" H 7300 5850 50  0001 C CNN
+	1    7300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5750 7100 5850
+Connection ~ 7100 5850
+Wire Wire Line
+	7100 5850 7100 5950
+Connection ~ 7100 5950
+Wire Wire Line
+	7100 5950 7100 6050
+$Comp
+L rpi3GpioTester-rescue:GND-power #PWR0133
+U 1 1 5DF3E28F
+P 6950 6050
+F 0 "#PWR0133" H 6950 5800 50  0001 C CNN
+F 1 "GND" H 6950 5900 50  0000 C CNN
+F 2 "" H 6950 6050 50  0001 C CNN
+F 3 "" H 6950 6050 50  0001 C CNN
+	1    6950 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 6050 7100 6050
 $EndSCHEMATC
