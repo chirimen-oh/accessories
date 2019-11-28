@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:rpi3GpioTester-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2678,36 +2677,36 @@ Wire Wire Line
 $Comp
 L rpi3GpioTester-rescue:Conn_01x04_Female J_5V1
 U 1 1 5DE85532
-P 7300 5250
-F 0 "J_5V1" H 7300 5450 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 7300 4950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7300 5250 50  0001 C CNN
-F 3 "" H 7300 5250 50  0001 C CNN
-	1    7300 5250
+P 5850 4900
+F 0 "J_5V1" H 5850 5100 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5850 4600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5850 4900 50  0001 C CNN
+F 3 "" H 5850 4900 50  0001 C CNN
+	1    5850 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L rpi3GpioTester-rescue:+5V-power #PWR0132
 U 1 1 5DEBA508
-P 7050 5150
-F 0 "#PWR0132" H 7050 5000 50  0001 C CNN
-F 1 "+5V" H 7050 5290 50  0000 C CNN
-F 2 "" H 7050 5150 50  0001 C CNN
-F 3 "" H 7050 5150 50  0001 C CNN
-	1    7050 5150
+P 5600 4800
+F 0 "#PWR0132" H 5600 4650 50  0001 C CNN
+F 1 "+5V" H 5600 4940 50  0000 C CNN
+F 2 "" H 5600 4800 50  0001 C CNN
+F 3 "" H 5600 4800 50  0001 C CNN
+	1    5600 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 5150 7100 5150
+	5600 4800 5650 4800
 Wire Wire Line
-	7100 5150 7100 5250
-Connection ~ 7100 5150
-Connection ~ 7100 5250
+	5650 4800 5650 4900
+Connection ~ 5650 4800
+Connection ~ 5650 4900
 Wire Wire Line
-	7100 5250 7100 5350
-Connection ~ 7100 5350
+	5650 4900 5650 5000
+Connection ~ 5650 5000
 Wire Wire Line
-	7100 5350 7100 5450
+	5650 5000 5650 5100
 $Comp
 L rpi3GpioTester-rescue:Conn_01x04_Female J_GND1
 U 1 1 5DF0A267
@@ -2743,100 +2742,133 @@ Wire Wire Line
 $Comp
 L rpi3GpioTester-rescue:Conn_01x04_Female J_5V2
 U 1 1 5DDDAC92
-P 6200 5250
-F 0 "J_5V2" H 6200 5450 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6200 4950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6200 5250 50  0001 C CNN
-F 3 "" H 6200 5250 50  0001 C CNN
-	1    6200 5250
+P 5850 4200
+F 0 "J_5V2" H 5850 4400 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5850 3900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5850 4200 50  0001 C CNN
+F 3 "" H 5850 4200 50  0001 C CNN
+	1    5850 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rpi3GpioTester-rescue:+5V-power #PWR?
+L rpi3GpioTester-rescue:+5V-power #PWR0134
 U 1 1 5DDDAC98
-P 5950 5150
-F 0 "#PWR?" H 5950 5000 50  0001 C CNN
-F 1 "+5V" H 5950 5290 50  0000 C CNN
-F 2 "" H 5950 5150 50  0001 C CNN
-F 3 "" H 5950 5150 50  0001 C CNN
-	1    5950 5150
+P 5600 4100
+F 0 "#PWR0134" H 5600 3950 50  0001 C CNN
+F 1 "+5V" H 5600 4240 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5150 6000 5150
+	5600 4100 5650 4100
 Wire Wire Line
-	6000 5150 6000 5250
-Connection ~ 6000 5150
-Connection ~ 6000 5250
+	5650 4100 5650 4200
+Connection ~ 5650 4100
+Connection ~ 5650 4200
 Wire Wire Line
-	6000 5250 6000 5350
-Connection ~ 6000 5350
+	5650 4200 5650 4300
+Connection ~ 5650 4300
 Wire Wire Line
-	6000 5350 6000 5450
+	5650 4300 5650 4400
 $Comp
 L rpi3GpioTester-rescue:Conn_01x04_Female J_GND2
 U 1 1 5DDDACA5
-P 6200 5850
-F 0 "J_GND2" H 6200 6050 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6200 5550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6200 5850 50  0001 C CNN
-F 3 "" H 6200 5850 50  0001 C CNN
-	1    6200 5850
+P 7300 5100
+F 0 "J_GND2" H 7300 5300 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 7300 4800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 7300 5100 50  0001 C CNN
+F 3 "" H 7300 5100 50  0001 C CNN
+	1    7300 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 5750 6000 5850
-Connection ~ 6000 5850
+	7100 5000 7100 5100
+Connection ~ 7100 5100
 Wire Wire Line
-	6000 5850 6000 5950
-Connection ~ 6000 5950
+	7100 5100 7100 5200
+Connection ~ 7100 5200
 Wire Wire Line
-	6000 5950 6000 6050
+	7100 5200 7100 5300
 $Comp
-L rpi3GpioTester-rescue:GND-power #PWR?
+L rpi3GpioTester-rescue:GND-power #PWR0135
 U 1 1 5DDDACB0
-P 5850 6050
-F 0 "#PWR?" H 5850 5800 50  0001 C CNN
-F 1 "GND" H 5850 5900 50  0000 C CNN
-F 2 "" H 5850 6050 50  0001 C CNN
-F 3 "" H 5850 6050 50  0001 C CNN
-	1    5850 6050
+P 6950 5300
+F 0 "#PWR0135" H 6950 5050 50  0001 C CNN
+F 1 "GND" H 6950 5150 50  0000 C CNN
+F 2 "" H 6950 5300 50  0001 C CNN
+F 3 "" H 6950 5300 50  0001 C CNN
+	1    6950 5300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 6050 6000 6050
-Connection ~ 6000 6050
+	6950 5300 7100 5300
+Connection ~ 7100 5300
 $Comp
 L rpi3GpioTester-rescue:Conn_01x04_Female J_3V31
 U 1 1 5DF106F2
-P 6200 6650
-F 0 "J_3V31" H 6200 6850 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6200 6350 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6200 6650 50  0001 C CNN
-F 3 "" H 6200 6650 50  0001 C CNN
-	1    6200 6650
+P 5900 5750
+F 0 "J_3V31" H 5900 5950 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5900 5450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5900 5750 50  0001 C CNN
+F 3 "" H 5900 5750 50  0001 C CNN
+	1    5900 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 6550 6000 6550
+	5650 5650 5700 5650
 Wire Wire Line
-	6000 6550 6000 6650
-Connection ~ 6000 6550
-Connection ~ 6000 6650
+	5700 5650 5700 5750
+Connection ~ 5700 5650
+Connection ~ 5700 5750
 Wire Wire Line
-	6000 6650 6000 6750
-Connection ~ 6000 6750
+	5700 5750 5700 5850
+Connection ~ 5700 5850
 Wire Wire Line
-	6000 6750 6000 6850
+	5700 5850 5700 5950
 $Comp
-L rpi3GpioTester-rescue:+3.3V-power #PWR?
+L rpi3GpioTester-rescue:+3.3V-power #PWR0136
 U 1 1 5DF46315
-P 5950 6550
-F 0 "#PWR?" H 5950 6400 50  0001 C CNN
-F 1 "+3.3V" H 5950 6690 50  0000 C CNN
-F 2 "" H 5950 6550 50  0001 C CNN
-F 3 "" H 5950 6550 50  0001 C CNN
-	1    5950 6550
+P 5650 5650
+F 0 "#PWR0136" H 5650 5500 50  0001 C CNN
+F 1 "+3.3V" H 5650 5790 50  0000 C CNN
+F 2 "" H 5650 5650 50  0001 C CNN
+F 3 "" H 5650 5650 50  0001 C CNN
+	1    5650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L rpi3GpioTester-rescue:Conn_01x04_Female J_3V32
+U 1 1 5DE1615D
+P 5900 6500
+F 0 "J_3V32" H 5900 6700 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5900 6200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5900 6500 50  0001 C CNN
+F 3 "" H 5900 6500 50  0001 C CNN
+	1    5900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6400 5700 6400
+Wire Wire Line
+	5700 6400 5700 6500
+Connection ~ 5700 6400
+Connection ~ 5700 6500
+Wire Wire Line
+	5700 6500 5700 6600
+Connection ~ 5700 6600
+Wire Wire Line
+	5700 6600 5700 6700
+$Comp
+L rpi3GpioTester-rescue:+3.3V-power #PWR0137
+U 1 1 5DE1616A
+P 5650 6400
+F 0 "#PWR0137" H 5650 6250 50  0001 C CNN
+F 1 "+3.3V" H 5650 6540 50  0000 C CNN
+F 2 "" H 5650 6400 50  0001 C CNN
+F 3 "" H 5650 6400 50  0001 C CNN
+	1    5650 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
