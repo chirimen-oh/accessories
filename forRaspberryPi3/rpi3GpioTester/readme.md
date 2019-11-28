@@ -5,11 +5,12 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 ![board](./board.png)
 
 ## Size
-120x80mm  2layers
+
+100x100mm  2layers
 
 ## Version
 
-0.3 (KiCad version:5.1.4)
+0.5 (KiCad version:5.1.4)
 
 ## License
 
