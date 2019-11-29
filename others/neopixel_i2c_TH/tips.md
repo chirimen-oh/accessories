@@ -52,3 +52,7 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
 ## その他参考情報
 * NeopixelLEDの初期リビジョン～６ピンチップのWS2812というタイプは、結線を間違えると簡単に壊れてしまいますので注意。４ピンチップのWS2812**B**はこの問題が改善されているようです。
     * 参照: https://cdn.sparkfun.com/assets/learn_tutorials/1/0/5/WS2812B_VS_WS2812.pdf
+    
+ 
+## Note
+このコンテンツは、https://gist.github.com/satakagi/608f6c2c963c8e9453864f11b6fb1f3d から移行したものです
