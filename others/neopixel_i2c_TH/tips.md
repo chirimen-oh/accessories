@@ -31,14 +31,15 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
 * 参考: [オリジナルの作者さんは、表面実装部品を使った専用ボードを開発・図面を公開しています ](https://hackaday.io/project/8516-picopixel)
 
 ## neopixel_i2cファームウェアビルドの注意点
-* https://github.com/usedbytes/neopixel_i2c に従って、USBASPを使ってファームウェアを書き込みますが、85個以上のLEDが制御できない問題があり、これを解消したforkをhttps://github.com/satakagi/neopixel_i2c に置きました。こちらでは同時に以下の定数変更を行っていくらか使いやすくしてあります。
-* i2c/i2c_slave_defs.h の定数を変更
-    * N_LEDS 160 (モジュールのLEDの個数。初期値だと16個しか制御できない)
-    * I2C_SLAVE_ADDR 0x41 (PCA9685と被りがちなので0x40から変更した。下記のドライバのデフォルトも0x41になっています)
+* https://github.com/usedbytes/neopixel_i2c に従って、USBASPを使ってファームウェアを書き込みますが、85個以上のLEDが制御できない問題があります。
+* これを解消したforkをhttps://github.com/satakagi/neopixel_i2c に置きました。こちらでは同時に以下の定数変更を行っていくらか使いやすくしてあります。
+    * i2c/i2c_slave_defs.h の定数を変更
+        * N_LEDS 160 (モジュールのLEDの個数。初期値だと16個しか制御できない)
+        * I2C_SLAVE_ADDR 0x41 (PCA9685と被りがちなので0x40から変更した。下記のドライバのデフォルトも0x41になっています)
 * [WinAVR](https://sourceforge.net/projects/winavr/) / Cygwinを用いてmake（cygwin上で動かさないとオリジナルのmakefileではうまく通らないようです）
 * usbasp(参考：[品物](https://www.amazon.co.jp/s?k=usbasp)、[ドライバ](https://ht-deko.com/arduino/usbasp.html#03)、[使い方](http://ryusendo.rdy.jp/?p=177))を使ってATTiny85に焼き込み
     * make program　で本体が転送される
-    * make fuses　で[ヒューズビット](http://startelc.com/AVR/Avr_3Wfuse.html)の設定がされる(デフォルトと異なる値なので必ず実行)
+    * make fuses　で[ヒューズビット](http://startelc.com/AVR/Avr_3Wfuse.html)の設定がされる(デフォルトと異なる値なので必要)
     
  ## CHIRIMEN用ドライバとサンプル
 * ドライバとサンプルは、[CHIRIMENのメインのリポジトリ内](https://github.com/chirimen-oh/chirimen-raspi3/tree/master/gc/contrib/examples/i2c-NEOPIXEL_I2C)に移行、今後はそちらをメンテナンスします。
