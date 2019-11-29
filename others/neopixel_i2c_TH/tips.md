@@ -48,3 +48,6 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
  ## CHIRIMEN用ドライバとサンプル
 * ドライバとサンプルは、[CHIRIMENのメインのリポジトリ内](https://github.com/chirimen-oh/chirimen-raspi3/tree/master/gc/contrib/examples/i2c-NEOPIXEL_I2C)に移行、今後はそちらをメンテナンスします。
 * 直接動かしてみる：　https://chirimen.org/chirimen-raspi3/gc/top/examples/#I2C-NEOPIXEL_I2C
+
+## その他参考情報
+* NeopixelLEDの初期リビジョン～６ピンのWS2812というタイプは、結線を間違えると簡単に壊れてしまいますので注意。４ピンのWS2812Bはこの問題が改善されいるようです。
