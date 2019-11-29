@@ -1,3 +1,5 @@
+# Neopixel-I2C + CHIRIMEN TIPS
+
 ATTINY85をオピクセルLED用のI2Cコントローラとして構成し、I2C経由で簡単にネオピクセルLEDを制御できるオープンソース[NeopixelI2C](https://github.com/usedbytes/neopixel_i2c) を利用して、CHIRIMEN for Raspberry Pi3のWebI2CからネオピクセルLEDを制御できるようにします。
 ATTINY85にファームウェアを焼き込むところと、I2C信号レベルの変換がハードルかもしれません。
 
