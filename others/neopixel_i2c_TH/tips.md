@@ -34,8 +34,8 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
 * https://github.com/usedbytes/neopixel_i2c に従って、USBASPを使ってファームウェアを書き込みますが、85個以上のLEDが制御できない問題があります。
 * これを解消したforkをhttps://github.com/satakagi/neopixel_i2c に置きました。こちらでは同時に以下の定数変更を行っていくらか使いやすくしてあります。
     * i2c/i2c_slave_defs.h の定数を変更
-        * N_LEDS 160 (モジュールのLEDの個数。初期値だと16個しか制御できない)
-        * I2C_SLAVE_ADDR 0x41 (PCA9685と被りがちなので0x40から変更した。下記のドライバのデフォルトも0x41になっています)
+        * N_LEDS 160 (モジュールのLEDの個数。初期値だと16個しか制御できないが、160個まで制御できるように)
+        * I2C_SLAVE_ADDR 0x41 (PCA9685と被りがちなので0x40から変更した。下記のCHIRIMEN用ドライバのデフォルトも0x41になっています)
 * [WinAVR](https://sourceforge.net/projects/winavr/) / Cygwinを用いてmake（cygwin上で動かさないとオリジナルのmakefileではうまく通らないようです）
 * usbasp(参考：[品物](https://www.amazon.co.jp/s?k=usbasp)、[ドライバ](https://ht-deko.com/arduino/usbasp.html#03)、[使い方](http://ryusendo.rdy.jp/?p=177))を使ってATTiny85に焼き込み
     * make program　で本体が転送される
