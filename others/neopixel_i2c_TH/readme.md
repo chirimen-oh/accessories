@@ -3,7 +3,7 @@
 
 This is a KiCad data and Gerber data and Fritzing illustration for making a neopixel_i2c board only with through hole parts.
 
-* [**See here for tips on creating and using this board (inJapanese)**](tips.md)
+* [**See here for tips on creating and using this board (in Japanese)**](tips.md)
 
 neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspberry Pi etc via I2C. Of course by [CHIRIMEN webI2C](https://chirimen.org/chirimen-raspi3/gc/top/examples/#advanced)!
 
