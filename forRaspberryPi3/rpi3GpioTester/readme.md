@@ -32,6 +32,10 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
   - ピンヘッダ 4pin x 22
   - ピンヘッダ 2pin x 34
 
+I2C デバイス接続用に用意しておくと便利なもの
+- 4pin ジャンパワイヤ https://ja.aliexpress.com/item/32812824461.html
+
+そのほか、試験対象とする I2C デバイス一式をご用意ください
 
 ## License
 
