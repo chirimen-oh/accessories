@@ -12,13 +12,27 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 
 0.5 (KiCad version:5.1.4)
 
+## Parts
+
+この基板に以下のパーツを半田付けしてご利用ください
+
+- Raspberry Pi 接続用
+  - 2x20 連結ピンソケット x1 http://akizukidenshi.com/catalog/g/gC-02485/
+  - あるいは 2x20 スタッキングコネクタ x 1 http://akizukidenshi.com/catalog/g/gC-10702/
+- GPIO 試験用
+  - LED x 17
+  - LED 用抵抗 470Ω x 17
+  - タクトスイッチ (4本足、黒) x 14 http://akizukidenshi.com/catalog/g/gP-03647/
+  - タクトスイッチ (4本足、白) x 3 http://akizukidenshi.com/catalog/g/gP-03648/
+- Grove 接続用
+  - メスソケット x 4 https://www.switch-science.com/catalog/1122/
+- I2C その他の接続用
+  - ピンヘッダ 20pin x 1
+  - ピンヘッダ 12pin x 1
+  - ピンヘッダ 4pin x 22
+  - ピンヘッダ 2pin x 34
+
+
 ## License
 
 CC by 4.0
-
-
-
-
-
-
-
