@@ -22,8 +22,8 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 - GPIO 試験用
   - LED x 17
   - LED 用抵抗 470Ω x 17
-  - タクトスイッチ (4本足、黒) x 14 http://akizukidenshi.com/catalog/g/gP-03647/
-  - タクトスイッチ (4本足、白) x 3 http://akizukidenshi.com/catalog/g/gP-03648/
+  - タクトスイッチ (4本足、黒) x 14 [秋月](http://akizukidenshi.com/catalog/g/gP-03647/), [AliExpress](https://ja.aliexpress.com/item/32845984040.html)
+  - タクトスイッチ (4本足、白) x 3 [秋月](http://akizukidenshi.com/catalog/g/gP-03648/), [AliExpress](https://ja.aliexpress.com/item/32847703781.html)
 - Grove 接続用
   - メスソケット x 4 https://www.switch-science.com/catalog/1122/
 - I2C その他の接続用
