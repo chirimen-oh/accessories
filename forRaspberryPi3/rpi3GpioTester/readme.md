@@ -22,7 +22,7 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
     - あるいは 2x20 スタッキングコネクタ x 1 - [秋月電子](http://akizukidenshi.com/catalog/g/gC-10702/)
 - GPIO 試験用
   - LED x 17
-  - LED 用抵抗 470Ω x 17
+  - LED 用抵抗 470Ω x 17 (LEDに流したい電流によって調整してください(1KΩぐらいまでは光ると思います))
   - タクトスイッチ (4本足、黒) x 14 - [秋月電子](http://akizukidenshi.com/catalog/g/gP-03647/), [Amazon](https://www.amazon.co.jp/dp/B07SYHP9B4/), [AliExpress](https://ja.aliexpress.com/item/32845984040.html)
   - タクトスイッチ (4本足、白) x 3 - [秋月電子](http://akizukidenshi.com/catalog/g/gP-03648/), [Amazon](https://www.amazon.co.jp/dp/B07SYZCL8Q/), [AliExpress](https://ja.aliexpress.com/item/32847703781.html)
 - Grove 接続用
@@ -41,6 +41,13 @@ I2C デバイス接続用に用意しておくと便利なもの
 - 4pin ジャンパワイヤ - [秋月電子](https://ja.aliexpress.com/item/32812824461.html)
 
 そのほか、試験対象とする I2C デバイス一式をご用意ください
+
+## PCB Assembly
+
+極性に注意するパーツ
+
+- LED : 基盤のパターンの□のほうがGND(-) (LEDの短い足を挿す)
+- Grove : 写真を参考に
 
 ## License
 
