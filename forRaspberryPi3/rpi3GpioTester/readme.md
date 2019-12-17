@@ -60,6 +60,10 @@ I2C デバイス接続用に用意しておくと便利なもの
 
 ![photo](./CHIRIMEN_T.jpg)
 
+## 回路図
+
+![schematic](./rpi3GpioTesterSchematic.png)
+
 ## License
 
 CC by 4.0
