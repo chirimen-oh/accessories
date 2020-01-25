@@ -31,4 +31,4 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 * http://chirimen.org/chirimen-raspi3/gc/top/examples/#advanced
 
 ## License
-CC BY-SA 3.0
+CC BY-SA 3.0   based on picopixel license
