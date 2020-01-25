@@ -3,13 +3,15 @@
 
 This is a KiCad data and Gerber data and Fritzing illustration for making a neopixel_i2c board only with through hole parts.
 
+neopixel_i2c is Brian Starkey's (usedbytes) I2C controlled neopixel LED controller.
+
 * [**See here for tips on creating and using this board (in Japanese)**](tips.md)
 
 neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspberry Pi etc via I2C. Of course by [CHIRIMEN webI2C](https://chirimen.org/chirimen-raspi3/gc/top/examples/#advanced)!
 
+* Original board design (picopixel) with surface mount parts: https://hackaday.io/project/8516-picopixel
 * Original firmware : https://github.com/usedbytes/neopixel_i2c
 * Issue fixed firmware: https://github.com/satakagi/neopixel_i2c
-* Original board design (picopixel) with surface mount parts: https://hackaday.io/project/8516-picopixel
 
 ## Parts list
 
@@ -27,3 +29,6 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 ## Driver for CHIRIMEN
 * See I2C-NOEPIXEL_I2C section of
 * http://chirimen.org/chirimen-raspi3/gc/top/examples/#advanced
+
+## License
+CC BY-SA 3.0
