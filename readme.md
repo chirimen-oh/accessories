@@ -1,5 +1,9 @@
 # Accessories for CHIRIMEN
 
+It is a hardware accessory of CHIRIMEN.
+They are all open source blueprints and can be used on the CHIRIMEN environment. It is mainly intended for use with CHIRIMEN for RPi, but it is general purpose and can be used in other environments.
+
+
 - [prot-hat](forRaspberryPi3/prot-hat/)
 - [rpi3GpioTester](forRaspberryPi3/rpi3GpioTester/)
 - [Grove-adt7410](grove/adt7410/)
