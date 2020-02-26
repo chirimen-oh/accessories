@@ -3,7 +3,7 @@
 
 This is a KiCad data and Gerber data and Fritzing illustration for making a neopixel_i2c board only with through hole parts.
 
-neopixel_i2c is Brian Starkey's (usedbytes) I2C controlled neopixel LED controller.
+neopixel_i2c is I2C neopixel LED controller designed by Brian Starkey (gitHub ID : usedbytes).
 
 * [**See here for tips on creating and using this board (in Japanese)**](tips.md)
 
@@ -32,3 +32,6 @@ neopixel_i2c is a intelligent driver for easy controlling Nopixel LEDs by Raspbe
 
 ## License
 CC BY-SA 3.0   based on picopixel license
+
+## Open Source Hardwaer Certification ID
+https://certification.oshwa.org/jp000008.html
