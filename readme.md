@@ -1,7 +1,7 @@
 # Accessories for CHIRIMEN
 
-There are hardware accessories of CHIRIMEN.
-They are all open source blueprints and can be used on the CHIRIMEN environment. It is mainly intended for use with CHIRIMEN for RPi, but There are general purpose and can be used in other environments.
+They are hardware accessories of CHIRIMEN.
+They are all open source blueprints and can be used on the CHIRIMEN environment. It is mainly intended for use with CHIRIMEN for RPi, but They are general purpose and can be used in other environments.
 
 
 - [prot-hat](forRaspberryPi3/prot-hat/)
