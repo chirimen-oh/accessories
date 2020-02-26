@@ -12,7 +12,7 @@
 
 CC by 4.0
 
-
-
+# OSHWA CERTIFICATION ID
+https://certification.oshwa.org/jp000007.html
 
 
