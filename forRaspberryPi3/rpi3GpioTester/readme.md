@@ -14,6 +14,10 @@ CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirim
 
 0.5 (KiCad version:5.1.4)
 
+## 基板の発注
+
+Elecrow等の基板製造サービスに、基板のサイズ(100x100mm)、Layer数(=2)、厚みや色(お好みで)など必要事項を記載の上、Gerberディレクトリの内容をアーカイブしたものを添付して発注します。[詳細は、Webで検索](https://www.google.com/search?q=elecrow+%E7%99%BA%E6%B3%A8%E6%96%B9%E6%B3%95)
+
 ## Parts
 
 この基板に以下のパーツを半田付けしてご利用ください
