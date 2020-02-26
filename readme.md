@@ -1,6 +1,6 @@
 # Accessories for CHIRIMEN
 
-It is a hardware accessory of CHIRIMEN.
+There are hardware accessories of CHIRIMEN.
 They are all open source blueprints and can be used on the CHIRIMEN environment. It is mainly intended for use with CHIRIMEN for RPi, but it is general purpose and can be used in other environments.
 
 
