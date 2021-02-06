@@ -1,4 +1,8 @@
 # neopixel_i2c_TH 
+
+### OSHW 
+- [OSHWA UID: JP000008](https://certification.oshwa.org/jp000008.html)
+
 ## (Neopixel I2C board with through hole parts)
 
 This is a KiCad data and Gerber data and Fritzing illustration for making a neopixel_i2c board only with through hole parts.

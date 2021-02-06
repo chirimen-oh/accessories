@@ -1,5 +1,8 @@
 # CHIRIMEN for RPi Full Test Board
 
+### OSHW 
+- [OSHWA UID: JP000006](https://certification.oshwa.org/jp000008.html)
+
 CHIRIMEN for Raspberry Piの、[テストスイート](https://github.com/chirimen-oh/chirimen-raspi3/tree/master/gc/testSet)を一気に通すための試験用基板です。
 
 それ以外にもRaspberry Piのブレークアウトボード的に便利に使えるかもしれません。
