@@ -30,7 +30,7 @@ Elecrow等の基板製造サービスに、基板のサイズ(100x100mm)、Layer
     - あるいは 2x20 連結ピンソケット x1 - [秋月電子](http://akizukidenshi.com/catalog/g/gC-02485/), [スイッチサイエンス](https://www.switch-science.com/catalog/2022/)
     - あるいは 2x20 スタッキングコネクタ x 1 - [秋月電子](http://akizukidenshi.com/catalog/g/gC-10702/)
 - GPIO 試験用
-  - LED x 17 (3mm砲弾型で設計)
+  - LED x 17 (3mm砲弾型で設計, 14+3 で 2 色にすると使いやすい)
   - LED 用抵抗 470Ω x 17 (LEDに流したい電流によって調整してください(1KΩぐらいまでは光ると思います))
   - タクトスイッチ (4本足、黒) x 14 - [秋月電子](http://akizukidenshi.com/catalog/g/gP-03647/), [Amazon](https://www.amazon.co.jp/dp/B07SYHP9B4/), [AliExpress](https://ja.aliexpress.com/item/32845984040.html)
   - タクトスイッチ (4本足、白) x 3 - [秋月電子](http://akizukidenshi.com/catalog/g/gP-03648/), [Amazon](https://www.amazon.co.jp/dp/B07SYZCL8Q/), [AliExpress](https://ja.aliexpress.com/item/32847703781.html)
