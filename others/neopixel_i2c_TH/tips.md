@@ -32,7 +32,7 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
     * レベルコンバータをディスクリート部品(2N7000 x 2と2.2Kohm x 2)で構成しているのが相違点(より安価)
     * 全てのパーツは秋月電子通商で購入可能でした
 * もちろんNeopixel LEDモジュールは別途用意してください。
-* 参考: [オリジナルの作者さんは、表面実装部品を使った専用ボードを開発・図面を公開しています ](https://hackaday.io/project/8516-picopixel)
+* 参考: [オリジナルの作者さんは、表面実装部品を使った専用ボードを開発・図面を公開しています ](https://hackaday.io/project/8516-picopixel)　（[ガーバーデータ一式](http://usedbytes.com/files/picopixel_all_files.zip)）
 
 ## neopixel_i2cファームウェアビルドの注意点
 * https://github.com/usedbytes/neopixel_i2c に従って、USBASPを使ってファームウェアを書き込みますが、85個以上のLEDが制御できない問題があります。
