@@ -8,7 +8,7 @@ ATTINY85にファームウェアを焼き込むところと、I2C信号レベル
 ## 部品リスト
 
 ### ブレッドボード版
-* [CHIRIMEN for PiのExample](https://chirimen.org/chirimen-raspi3/gc/top/examples/#I2C-NEOPIXEL_I2C)の、[回路図(実体配線図)](https://chirimen.org/chirimen-raspi3/gc/contrib/examples/i2c-NEOPIXEL_I2C/NEOPIXEL_I2C.png)参照 ( [オリジナルの回路図](https://github.com/usedbytes/neopixel_i2c#circuit) )
+* [CHIRIMEN for PiのExample](https://chirimen.org/chirimen/gc/top/examples/#I2C-NEOPIXEL_I2C)の、[回路図(実体配線図)](https://chirimen.org/chirimen/gc/contrib/examples/i2c-NEOPIXEL_I2C/NEOPIXEL_I2C.png)参照 ( [オリジナルの回路図](https://github.com/usedbytes/neopixel_i2c#circuit) )
 * ATTINY85 (下記のファームウェアを書き込んだもの)
 * I2Cレベルコンバータ
     * 下コメント欄の配線図ではsparkfun PCA9306ブレークアウトボードを使っていますが、同等の機能を持つものなら大丈夫だと思います
